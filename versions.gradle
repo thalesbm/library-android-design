@@ -1,4 +1,8 @@
 ext {
+    // Version
+    appVersion = "1.0.0.1"
+    codeVersion = 2
+
     // Project
     minSDKVersion = 19
     targetSDKVersion = 28
