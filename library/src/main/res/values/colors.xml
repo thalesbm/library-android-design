@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+
+    <!--region Neutrals -->
+    <color name="N0">@android:color/white</color>
+    <color name="N10">#FAF8F7</color>
+    <color name="N20">#F7F4F2</color>
+    <color name="N30">#EFE9E5</color>
+    <color name="N40">#D9D3CF</color>
+    <color name="N50">#969290</color>
+    <color name="N60">#605751</color>
+    <color name="N70">#231D19</color>
+    <color name="N80">#252220</color>
+    <!--endregion-->
+
+    <!--region Color Palette -->
+    <color name="red">#B71C1C</color>
+    <color name="dark_red">#BA1319</color>
+    <color name="chocolate">#876632</color>
+    <color name="dark_gold">#B88440</color>
+    <color name="yellow">#F1AE2F</color>
+    <color name="yellow_reminder">#FCE770</color>
+    <color name="purple">#531E6D</color>
+    <color name="icon_purple">#781B8E</color>
+    <color name="pink">#D01481</color>
+    <color name="dark_blue">#0D456f</color>
+    <color name="blue">#106EB0</color>
+    <color name="light_blue">#0083CA</color>
+    <color name="green">#007A47</color>
+    <!--endregion-->
+
+    <!--region Gradient-->
+    <color name="gradient_yellow_dark">#E6A20A</color>
+    <color name="gradient_yellow_light">#FEC700</color>
+
+    <color name="gradient_blue_dark">#00306B</color>
+    <color name="gradient_blue_light">#007EB7</color>
+
+    <color name="gradient_navy_blue_dark">#000021</color>
+    <color name="gradient_navy_blue_light">#00407B</color>
+
+    <color name="gradient_black_dark">@android:color/black</color>
+    <color name="gradient_black_light">#5A5A5A</color>
+
+    <color name="gradient_bordeaux_dark">#710A21</color>
+    <color name="gradient_bordeaux_light">#DC2230</color>
+
+    <color name="gradient_cappuccino_dark">#251C10</color>
+    <color name="gradient_cappuccino_light">#70636C</color>
+
+    <color name="gradient_champagne_dark">#9E9275</color>
+    <color name="gradient_champagne_light">#DCD4B5</color>
+
+    <color name="gradient_wildcard_dark">#023394</color>
+    <color name="gradient_wildcard_light">#32658C</color>
+
+    <color name="gradient_emerald_dark">#04656B</color>
+    <color name="gradient_emerald_light">#018587</color>
+
+    <color name="gradient_gold_dark">#B98A32</color>
+    <color name="gradient_gold_light">#D7B464</color>
+
+    <color name="gradient_orange_dark">#E66100</color>
+    <color name="gradient_orange_light">#FEA100</color>
+
+    <color name="gradient_silver_1">#939393</color>
+    <color name="gradient_silver_light">#D2D2D2</color>
+
+    <color name="gradient_pink_1">#AB136C</color>
+    <color name="gradient_pink_light">#E20A89</color>
+
+    <color name="gradient_green_dark">#004F3F</color>
+    <color name="gradient_green_light">#008644</color>
+
+    <color name="gradient_purple_dark">#18005E</color>
+    <color name="gradient_purple_light">#79009F</color>
+    <!--endregion-->
+
+    <!--region Opacity -->
+    <color name="opacity_light_10">#1AFFFFFF</color>
+    <color name="opacity_light_20">#33FFFFFF</color>
+    <color name="opacity_light_30">#4DFFFFFF</color>
+    <color name="opacity_light_40">#66FFFFFF</color>
+    <color name="opacity_light_50">#80FFFFFF</color>
+    <color name="opacity_light_60">#99FFFFFF</color>
+    <color name="opacity_light_70">#B3FFFFFF</color>
+    <color name="opacity_light_80">#CCFFFFFF</color>
+    <color name="opacity_light_90">#E6FFFFFF</color>
+
+    <color name="opacity_dark_10">#1A000000</color>
+    <color name="opacity_dark_20">#33000000</color>
+    <color name="opacity_dark_30">#4D000000</color>
+    <color name="opacity_dark_40">#66000000</color>
+    <color name="opacity_dark_50">#80000000</color>
+    <color name="opacity_dark_60">#99000000</color>
+    <color name="opacity_dark_70">#B3000000</color>
+    <color name="opacity_dark_80">#CC000000</color>
+    <color name="opacity_dark_90">#E6000000</color>
+    <!--endregion-->
 </resources>
