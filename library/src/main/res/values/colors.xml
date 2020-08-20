@@ -2,6 +2,7 @@
 <resources>
 
     <!--region Neutrals -->
+    <color name="transparent">@android:color/transparent</color>
     <color name="N0">@android:color/white</color>
     <color name="N10">#FAF8F7</color>
     <color name="N20">#F7F4F2</color>
