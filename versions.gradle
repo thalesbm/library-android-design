@@ -1,10 +1,13 @@
 ext {
-    // Android
+    // Project
     minSDKVersion = 19
     targetSDKVersion = 28
     compileSDKVersion = 28
     kotlinVersion = '1.3.61'
     gradleVersion = '3.6.2'
     buildToolsVersion = '28.0.3'
-    appCompactVersion = '1.1.0'
+
+    // Android
+    appCompactVersion = '1.2.0'
+    androidxRecyclerview = '1.1.0'
 }
