@@ -1,11 +1,11 @@
-package bm.it.mobile.library.fonts
+package bm.it.mobile.ui.fonts
 
 import android.content.Context
 import android.graphics.Typeface
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 
-class TextViewLight : AppCompatTextView {
+class TextViewRegular : AppCompatTextView {
     constructor(context: Context, attrs: AttributeSet, defStyle: Int) : super(
         context,
         attrs,
@@ -19,6 +19,6 @@ class TextViewLight : AppCompatTextView {
     }
 
     private fun init() {
-        typeface = Typeface.createFromAsset(context.assets, "fonts/roboto_light.ttf")
+        typeface = Typeface.createFromAsset(context.assets, "fonts/roboto_regular.ttf")
     }
 }
