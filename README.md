@@ -14,6 +14,6 @@ allprojects {
 ###### Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.thalesbm:android-permissions:1.0.0'
+    implementation 'com.github.thalesbm:android-tbm-ui:1.0.0'
 }
 ```
