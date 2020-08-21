@@ -9,4 +9,14 @@
     <dimen name="dimen_24dp">24dp</dimen>
     <dimen name="dimen_28dp">28dp</dimen>
     <dimen name="dimen_32dp">32dp</dimen>
+
+    <dimen name="dimen_2sp">2sp</dimen>
+    <dimen name="dimen_4sp">4sp</dimen>
+    <dimen name="dimen_8sp">8sp</dimen>
+    <dimen name="dimen_12sp">12sp</dimen>
+    <dimen name="dimen_16sp">16sp</dimen>
+    <dimen name="dimen_20sp">20sp</dimen>
+    <dimen name="dimen_24sp">24sp</dimen>
+    <dimen name="dimen_28sp">28sp</dimen>
+    <dimen name="dimen_32sp">32sp</dimen>
 </resources>
