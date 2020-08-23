@@ -9,6 +9,7 @@ abstract class BaseToolbarActivity: BaseActivity() {
 
     abstract fun toolbar(): Toolbar
     abstract fun toolbarTitle(): String
+    abstract fun toolbarHomeButtonEnabled(): Boolean
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,8 +19,8 @@ abstract class BaseToolbarActivity: BaseActivity() {
 
     protected fun configureToolbar() {
         setSupportActionBar(toolbar())
-        supportActionBar?.setHomeButtonEnabled(true)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeButtonEnabled(toolbarHomeButtonEnabled())
+        supportActionBar?.setDisplayHomeAsUpEnabled(toolbarHomeButtonEnabled())
         supportActionBar?.title = toolbarTitle()
     }
 

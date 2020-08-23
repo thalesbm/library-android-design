@@ -6,7 +6,7 @@ import androidx.appcompat.widget.Toolbar
 
 abstract class BaseActivity : AppCompatActivity() {
 
-    abstract fun init()
+    abstract fun initView()
     abstract fun initExtras()
     abstract fun getContentView(): Int
 
@@ -14,7 +14,7 @@ abstract class BaseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(getContentView())
 
-        init()
+        initView()
         initExtras()
     }
 }

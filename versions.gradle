@@ -1,6 +1,6 @@
 ext {
     // Version
-    appVersion = "1.0.4"
+    appVersion = "1.0.5"
     codeVersion = 1
 
     // Project
