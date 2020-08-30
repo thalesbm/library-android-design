@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import bm.it.mobile.app.samples.dynamicList.SantanderDynamicListActivity
+import bm.it.mobile.app.samples.dynamicList.SampleDynamicListActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val dynamicListButton = findViewById<Button>(R.id.dynamic_list_button)
         dynamicListButton.setOnClickListener {
-            startActivity(Intent(this, SantanderDynamicListActivity::class.java))
+            startActivity(Intent(this, SampleDynamicListActivity::class.java))
         }
     }
 }

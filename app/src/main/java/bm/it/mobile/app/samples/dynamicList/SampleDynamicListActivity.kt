@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import bm.it.mobile.app.R
 import java.util.*
 
-class SantanderDynamicListActivity : AppCompatActivity() {
+class SampleDynamicListActivity : AppCompatActivity() {
 
     override fun onCreate(@Nullable savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

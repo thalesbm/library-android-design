@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".samples.dynamicList.SantanderDynamicListActivity" />
+        <activity android:name=".samples.dynamicList.SampleDynamicListActivity" />
     </application>
 
 </manifest>
