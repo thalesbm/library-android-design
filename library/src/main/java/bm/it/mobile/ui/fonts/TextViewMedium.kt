@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 
 class TextViewMedium : AppCompatTextView {
-    constructor(context: Context, attrs: AttributeSet, defStyle: Int) : super(
+    constructor(context: Context, attrs: AttributeSet?, defStyle: Int) : super(
         context,
         attrs,
         defStyle
@@ -14,7 +14,11 @@ class TextViewMedium : AppCompatTextView {
         init()
     }
 
-    constructor(context: Context, attrs: AttributeSet) : this(context, attrs, 0) {
+    constructor(context: Context) : this(context, null) {
+        init()
+    }
+
+    constructor(context: Context, attrs: AttributeSet?) : this(context, attrs, 0) {
         init()
     }
 
