@@ -10,4 +10,9 @@ object ViewHelpers {
         val screenWidthDp = displayMetrics.widthPixels / displayMetrics.density
         return (screenWidthDp / columnSize + 0.5).toInt()
     }
+
+    fun calculateNoOfColumns(context: Context): Float {
+        val displayMetrics: DisplayMetrics = context.resources.displayMetrics
+        return displayMetrics.widthPixels / displayMetrics.density
+    }
 }
