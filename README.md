@@ -14,6 +14,6 @@ allprojects {
 ###### Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.thalesbm:android-design:1.0.1'
+    implementation 'com.github.thalesbm:library-android-design:1.1.5'
 }
 ```
